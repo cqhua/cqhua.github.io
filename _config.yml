@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Homepage of Cunqing Hua"
 title_separator          : "-"
 name                     : &name "Cunqing Hua"
-description              : &description "Professor at the School of Computer Science, SJTU"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Professor at the School of Computer Science, Shanghai Jiao Tong University (SJTU)"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://cqhua.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -24,13 +24,13 @@ repository               : "cqhua/cqhua.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Cunqing Hua"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
+  bio              : "Professor, School of Computer Science "
+  location         : "Shanghai, China"
   employer         : "Shanghai Jiao Tong University, China"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "cqhua@sjtu.edu.cn" 
 
   # Academic websites
   academia         : # URL
