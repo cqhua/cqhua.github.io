@@ -23,7 +23,7 @@ repository               : "cqhua/cqhua.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "files/hua_photo.png"
   name             : "Cunqing Hua"
   pronouns         : # example: "she/her"  
   bio              : "Professor, School of Computer Science "
