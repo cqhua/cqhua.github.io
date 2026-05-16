@@ -21,16 +21,47 @@ author_profile: true
       {% endif %}
       {% unless title_shown %}
         <h2>{{ category[1].title }}</h2><hr />
+        <ul>
         {% assign title_shown = true %}
       {% endunless %}
-      {% include archive-single.html %}
+      <li>
+        {% if post.link %}
+          <a href="{{ post.link }}">{{ post.title }}</a> (<a href="{{ base_path }}{{ post.url }}" rel="permalink">permalink</a>)
+        {% else %}
+          <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ post.title }}</a>
+        {% endif %}
+        {% if post.citation %}
+          — {{ post.citation }}
+        {% elsif post.venue %}
+          — <i>{{ post.venue }}</i>{% if post.date %}, {{ post.date | default: "1900-01-01" | date: "%Y" }}{% endif %}
+        {% elsif post.date %}
+          — {{ post.date | default: "1900-01-01" | date: "%Y" }}
+        {% endif %}
+      </li>
     {% endfor %}
+    {% if title_shown %}
+      </ul>
+    {% endif %}
   {% endfor %}
 {% else %}
+  <ul>
   {% for post in site.publications reversed %}
-    {% include archive-single.html %}
+    <li>
+      {% if post.link %}
+        <a href="{{ post.link }}">{{ post.title }}</a> (<a href="{{ base_path }}{{ post.url }}" rel="permalink">permalink</a>)
+      {% else %}
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ post.title }}</a>
+      {% endif %}
+      {% if post.citation %}
+        — {{ post.citation }}
+      {% elsif post.venue %}
+        — <i>{{ post.venue }}</i>{% if post.date %}, {{ post.date | default: "1900-01-01" | date: "%Y" }}{% endif %}
+      {% elsif post.date %}
+        — {{ post.date | default: "1900-01-01" | date: "%Y" }}
+      {% endif %}
+    </li>
   {% endfor %}
+  </ul>
 {% endif %}
-
 
 
