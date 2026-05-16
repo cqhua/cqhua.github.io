@@ -1,1 +1,1 @@
-I am currently a Professor at the School of Computer Science (School of Cyberspace Security), Shanghai Jiao Tong University. My research interests mainly cover 6G networks and satellite Internet, with a particular focus on AI-enabled intelligent wireless networks and endogenous security technologies.
+I am currently a Professor at the School of Computer Science, Shanghai Jiao Tong University. My research interests mainly cover 6G networks and satellite Internet, with a particular focus on AI-enabled intelligent wireless networks and endogenous security technologies.
