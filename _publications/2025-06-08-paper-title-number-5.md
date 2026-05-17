@@ -1,3 +1,14 @@
+---
+title: "2025"
+collection: publications
+category: conferences
+permalink: /publication/2024-06-08-paper-title-number-5
+excerpt: 'This paper is about fixing template issue #693.'
+date: 2025
+venue: 'GitHub Journal of Bugs'
+paperurl: 'https://academicpages.github.io/files/paper3.pdf'
+citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
+
 **2025**
 - Liang Feng, **Cunqing Hua**, Lingya Liu and Jianan Hong, Quality and Diversity Balanced Neighbor Selection against Eclipse Attack in Blockchain System, IEEE Transactions on Network and Service Management, vol. 22, no. 6, pp. 6037-6047, Dec. 2025
 - Lingya Liu, Y. Wang and **Cunqing Hua**, Global and Fast Refinement of Greedy Sensor Selection Algorithms for Linear Models, IEEE Signal Processing Letters, vol. 32, pp. 2574-2578, 2025
