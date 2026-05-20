@@ -11,7 +11,7 @@ permalink: /publication/2015-10-01-paper-title-number-3
 #citation: 'Your Name, You. (2015). &quot;Paper Title Number 3.&quot; <i>Journal 1</i>. 1(3).'
 ---
 
-**2025**
+#**2025**
 - Liang Feng, **Cunqing Hua**, Lingya Liu and Jianan Hong, Quality and Diversity Balanced Neighbor Selection against Eclipse Attack in Blockchain System, IEEE Transactions on Network and Service Management, vol. 22, no. 6, pp. 6037-6047, Dec. 2025
 - Lingya Liu, Y. Wang and **Cunqing Hua**, Global and Fast Refinement of Greedy Sensor Selection Algorithms for Linear Models, IEEE Signal Processing Letters, vol. 32, pp. 2574-2578, 2025
 - Jiaping Gui, Ruiwen Ji, Haishi Huang, Jianan Hong,**Cunqing Hua**, Solving Data Contamination in DDoS Detection: A Method Based on Hierarchical Federated Learning, IEEE Transactions on Information Forensics and Security, vol. 20, pp. 7013-7028, 2025.
